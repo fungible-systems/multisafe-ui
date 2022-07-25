@@ -1,6 +1,5 @@
 import React, {useMemo} from 'react';
-
-const {createIcon} = require('@download/blockies');
+import {createIcon} from '@download/blockies';
 
 const WalletIcon = (props: { address: string }) => {
     const icon = useMemo(() => {
