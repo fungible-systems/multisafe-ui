@@ -1,5 +1,6 @@
 import i18n from 'i18next';
 import moment from 'moment';
+import enUs from './locales/en-US.json';
 
 export const langOptions = [
     {
@@ -8,7 +9,6 @@ export const langOptions = [
     }
 ];
 
-const enUs = require('./locales/en-US.json');
 
 const resources = {
     'en-US': {
